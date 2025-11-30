@@ -59,7 +59,7 @@ library(shinythemes)
 ```R
 shiny::runApp()
 # This will launch the UI in your browser.
-
+```
 ---
 
 ## 🗂️ Project Structure
