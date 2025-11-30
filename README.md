@@ -27,7 +27,7 @@ You can interact with the model by entering your details and instantly viewing t
 
 Install these packages **once** before running the application:
 
-```r
+```R
 install.packages(c(
   "naivebayes",
   "caret",
@@ -36,6 +36,7 @@ install.packages(c(
   "shiny",
   "shinythemes"
 ))
+```R
 Load them in r
 ```R
 library(naivebayes)
@@ -44,6 +45,7 @@ library(dplyr)
 library(ggplot2)
 library(shiny)
 library(shinythemes)
+```R
 
 ---
 
