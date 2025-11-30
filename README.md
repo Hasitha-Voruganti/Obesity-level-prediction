@@ -19,7 +19,6 @@ You can interact with the model by entering your details and instantly viewing t
 ✔️ Provides explanations and recommendations based on predicted class  
 ✔️ Displays probability scores for all obesity levels  
 ✔️ Enhanced user interface with modern theme and styled components  
-✔️ Fully reproducible — dataset and model included
 
 ---
 
@@ -120,10 +119,10 @@ The target variable defines the following progressive levels of weight status an
 
 This dataset is ideal for obesity prediction because:
 
-✔️ It includes both **numeric and categorical features**, making it robust for real-world modeling.
-✔️ Represents **real-world lifestyle behaviors** critical for health assessment.
-✔️ Supports the required **multi-class classification**.
-✔️ Enables **interpretable predictions** using the Naive Bayes algorithm.
+*✔️ It includes both **numeric and categorical features**, making it robust for real-world modeling.
+*✔️ Represents **real-world lifestyle behaviors** critical for health assessment.
+*✔️ Supports the required **multi-class classification**.
+*✔️ Enables **interpretable predictions** using the Naive Bayes algorithm.
 
 ---
 
@@ -133,7 +132,7 @@ This dataset is ideal for obesity prediction because:
 
 The Naive Bayes classifier is a **probabilistic machine learning algorithm** based on **Bayes' Theorem**, which calculates the likelihood of different classes based on the given features.
 
-It is called **"naive"** because it assumes that all features are independent of each other—a simplification that provides significant benefits:
+It is called **"naive"** because it assumes that all features are independent of each other. It is a simplification that provides significant benefits:
 
 * Extremely **fast** and **easy** to implement.
 * **Effective** even with small datasets.
@@ -141,11 +140,11 @@ It is called **"naive"** because it assumes that all features are independent of
 
 ### 🎯 Why Naive Bayes for This Project?
 
-✔️ Works well with **lifestyle and behavioral datasets** typical in health prediction.
-✔️ Handles **multi-class output** efficiently (7 obesity levels).
-✔️ Produces **interpretable class probabilities**, aiding user understanding.
-✔️ Requires **minimal training time** and memory usage.
-✔️ Proven to be **accurate** for structured health-related datasets.
+*✔️ Works well with **lifestyle and behavioral datasets** typical in health prediction.
+*✔️ Handles **multi-class output** efficiently (7 obesity levels).
+*✔️ Produces **interpretable class probabilities**, aiding user understanding.
+*✔️ Requires **minimal training time** and memory usage.
+*✔️ Proven to be **accurate** for structured health-related datasets.
 
 ---
 
