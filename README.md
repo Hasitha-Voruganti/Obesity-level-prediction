@@ -36,7 +36,7 @@ install.packages(c(
   "shiny",
   "shinythemes"
 ))
-```R
+```
 Load them in r
 ```R
 library(naivebayes)
@@ -45,7 +45,7 @@ library(dplyr)
 library(ggplot2)
 library(shiny)
 library(shinythemes)
-```R
+```
 
 ---
 
