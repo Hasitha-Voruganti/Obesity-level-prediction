@@ -1,13 +1,3 @@
-# INSTALL REQUIRED PACKAGES 
-
-install.packages("naivebayes")   # Package for Naïve Bayes classifier
-install.packages("caret")        # Used for data splitting & evaluation
-install.packages("dplyr")        # For data preprocessing
-install.packages("ggplot2")      # For visualizations
-install.packages("shiny")
-install.packages("shinythemes")
-install.packages("rsconnect")
-
 # LOAD LIBRARIES
 
 library(naivebayes)
@@ -107,7 +97,6 @@ ggplot(cm_df, aes(Prediction, Reference, fill = Freq)) +
 
 #Save model
 saveRDS(model, "obesity_model.rds")
-shiny::runApp()
-rsconnect::deployApp("D:\\obesity_project")
+
 
 
