@@ -119,10 +119,10 @@ The target variable defines the following progressive levels of weight status an
 
 This dataset is ideal for obesity prediction because:
 
-* ✔️ It includes both **numeric and categorical features**, making it robust for real-world modeling.
-* ✔️ Represents **real-world lifestyle behaviors** critical for health assessment.
-* ✔️ Supports the required **multi-class classification**.
-* ✔️ Enables **interpretable predictions** using the Naive Bayes algorithm.
+* It includes both **numeric and categorical features**, making it robust for real-world modeling.
+* Represents **real-world lifestyle behaviors** critical for health assessment.
+* Supports the required **multi-class classification**.
+* Enables **interpretable predictions** using the Naive Bayes algorithm.
 
 ---
 
@@ -140,11 +140,11 @@ It is called **"naive"** because it assumes that all features are independent of
 
 ### 🎯 Why Naive Bayes for This Project?
 
-* ✔️ Works well with **lifestyle and behavioral datasets** typical in health prediction.
-* ✔️ Handles **multi-class output** efficiently (7 obesity levels).
-* ✔️ Produces **interpretable class probabilities**, aiding user understanding.
-* ✔️ Requires **minimal training time** and memory usage.
-* ✔️ Proven to be **accurate** for structured health-related datasets.
+* Works well with **lifestyle and behavioral datasets** typical in health prediction.
+* Handles **multi-class output** efficiently (7 obesity levels).
+* Produces **interpretable class probabilities**, aiding user understanding.
+* Requires **minimal training time** and memory usage.
+* Proven to be **accurate** for structured health-related datasets.
 
 ---
 
