@@ -5,6 +5,8 @@ install.packages("caret")        # Used for data splitting & evaluation
 install.packages("dplyr")        # For data preprocessing
 install.packages("ggplot2")      # For visualizations
 install.packages("shiny")
+install.packages("shinythemes")
+install.packages("rsconnect")
 
 # LOAD LIBRARIES
 
@@ -13,6 +15,8 @@ library(caret)
 library(dplyr)
 library(ggplot2)
 library(shiny)
+library(shinythemes)
+library(rsconnect)
 
 # LOAD THE DATASET
 
@@ -104,4 +108,6 @@ ggplot(cm_df, aes(Prediction, Reference, fill = Freq)) +
 #Save model
 saveRDS(model, "obesity_model.rds")
 shiny::runApp()
+rsconnect::deployApp("D:\\obesity_project")
+
 
