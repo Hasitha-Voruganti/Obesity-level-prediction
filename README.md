@@ -205,17 +205,6 @@ The application is deployed using:
 
 ---
 
-# Future Improvements
-
-- Add Deep Learning models
-- Include diet recommendation engine
-- Add authentication system
-- Create analytics dashboard
-- Add progress tracking
-- Integrate healthcare APIs
-- Add multilingual support
-
----
 
 # Learning Outcomes
 
@@ -235,13 +224,3 @@ This project helped in understanding:
 ## Hasitha
 
 ---
-
-# Live Application
-
-🌐 https://hasitha.shinyapps.io/obesity_prediction/
-
----
-
-# License
-
-This project is open-source and available under the MIT License.
